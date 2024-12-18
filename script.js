@@ -203,3 +203,22 @@
 //1.stack,
 //2.queue
 //
+
+
+// function Person(name,age){
+//     let person = Object.create(Person.prototype)
+//     person.name = name;
+//     person.age = age;
+//     return person; 
+// }
+// Person.prototype = {
+//     eat(){
+//         console.log("Person is eating")
+//     },
+//     sleep(){
+//         console.log("Person is Sleeping")
+//     }
+// }
+// let tamim = Person("tamim",33)
+// console.log(tamim)
+// tamim.eat()
